@@ -1,0 +1,96 @@
+
+
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["My pleasure", "You're Welcome"],
+     "context": [""]
+    },
+    {"tag": "Simplilearn",
+     "patterns": ["What is Simplilearn?"],
+     "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform "],
+     "context": [""]
+    },
+    {"tag": "Artificial Intelligence",
+     "patterns": ["What is Artificial Intelligence?", "What is AI?"],
+     "responses": ["Articial intelligence, or AI, is technology that enables computers and machines to simulate human intelligence and problem-solving capabilities. "],
+     "context": [""]
+    },
+    {"tag": "Machine learning",
+     "patterns": ["What is Machine Learning?", "What is ML?"],
+     "responses": ["Machine learning is a subfield of artificial intelligence, which is broadly defined as the capability of a machine to imitate intelligent human behavior."],
+     "context": [""]
+    },
+    {"tag": "Mood",
+     "patterns": ["How was your day?","How is your Mood?"],
+     "responses": ["Good"],
+     "context": [""]
+    },
+    {"tag": "Identity",
+     "patterns": ["who are you?", "What is your name?","Tell me about your self"],
+     "responses": ["I'm AIchatbot, an AI developed by VPKBIET TE student(Shruti Bansode). I'm here to help answer your questions, engage in discussions, or assist you with whatever you need. What can I help you with today?"],
+     "context": [""]
+    },
+    {"tag": "song",
+     "patterns": ["suggest me a song","tell me a song","I want to listen music","suggest me music"],
+     "responses": ["Sure! What type of mood are you in?"],
+     "context": [""]
+    },
+    {"tag": "happymood",
+     "patterns": ["happy","funny","i want to listen happy songs"],
+     "responses": ["How about `Happy` by Pharrell Williams? It's an upbeat and catchy song that's sure to lift your spirits and put you in a funny mood!"],
+     "context": [""]
+    },
+    {"tag": "query",
+     "patterns": [ "How are you","you are very nice"],
+     "responses": ["Thank you for asking, I am Good", "Thank you for asking, It was Good"],
+     "context": [""]
+    },
+    {"tag": "query1",
+     "patterns": [ "how was your day"],
+     "responses": ["Thank you for asking, It was Good"],
+     "context": [""]
+    },
+    {"tag": "romantic",
+     "patterns": ["romantic","love","i want to listen love songs"],
+     "responses": ["How about `Tum jo aaye Zindagi mein` by Rahat Fateh Ali Khan and Tulsi Kumar? it's known for its soulful melody and heartfelt lyrics. It's a great choice for when you're feeling reflective or nostalgic."],
+     "context": [""]
+    },
+    {"tag": "sadmood",
+     "patterns": ["sad","not good","i want to listen sad songs"],
+     "responses": ["For a sad song, you might try `Ae Dil Hai Mushkil` by Arijit Singh. It's a poignant ballad that captures the emotions of heartbreak and longing."],
+     "context": [""]
+    },
+    {"tag": "yeah",
+     "patterns": ["yeah","yes","yo","ya","ok"],
+     "responses": ["Great","Nice"],
+     "context": [""]
+    },
+    {"tag": "food",
+    "patterns": ["had dinner?","had lunch?","had breakfast?","had brunch?"],
+    "responses": ["Yes, what about you?"],
+    "context": [""]
+    },
+    {"tag": "confession",
+    "patterns": ["I love you","you are cool","you are great","I like you"],
+    "responses": ["I'm flattered! As an AI, I don't have emotions, but I'm here to help and support you in any way I can. How can I assist you further today?"],
+    "context": [""]
+    },
+    {"tag": "recepies",
+    "patterns": ["I am hungry","suggest me a recepy","recepy","I want to eat"],
+    "responses": ["How about trying a simple yet delicious recipe for Spaghetti Aglio e Olio? It's a classic Italian pasta dish that's quick to make and full of flavor."],
+    "context": [""]
+    }
+
+]}
